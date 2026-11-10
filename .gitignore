@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Local environment and tool state
+.env
+.env.*
+!.env.example
+.claude/
+.codex/
+.codex-*/
+scratch_smoke/
